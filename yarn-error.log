@@ -1,0 +1,58 @@
+Arguments: 
+  /home/eddypermana22/.nvm/versions/node/v18.8.0/bin/node /home/eddypermana22/.cache/node/corepack/yarn/1.22.19/bin/yarn.js install
+
+PATH: 
+  /home/eddypermana22/.fly/bin:/home/eddypermana22/.local/share/pnpm:/home/eddypermana22/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/bin/remote-cli:/home/eddypermana22/.fly/bin:/home/eddypermana22/.local/share/pnpm:/home/eddypermana22/.nvm/versions/node/v18.8.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Volta/:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/DTS/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Java/jdk1.8.0_341/bin/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Azure Data Studio/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/WinSCP/:/mnt/c/Users/cyber/AppData/Local/Volta/bin:/mnt/c/Users/cyber/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/JetBrains/IntelliJ IDEA 2022.2.1/bin:/mnt/c/Users/cyber/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin:/home/eddypermana22/grader/bin:/home/eddypermana22/grader/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.8.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: ENOENT: no such file or directory, copyfile '/home/eddypermana22/.cache/yarn/v6/npm-globals-13.19.0-7a42de8e6ad4f7242fbcca27ea5b23aca367b5c8-integrity/node_modules/globals/index.d.ts' -> '/home/eddypermana22/works/r/dendrite/Frontend Web Development with React/frontend-deployment-final-project/v1/node_modules/@eslint/eslintrc/node_modules/globals/index.d.ts'
+
+npm manifest: 
+  {
+    "name": "react-starter",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+      "@testing-library/jest-dom": "^5.16.5",
+      "@testing-library/react": "^13.4.0",
+      "@testing-library/user-event": "^13.5.0",
+      "cheerio": "1.0.0-rc.12",
+      "react": "^18.2.0",
+      "react-dom": "^18.2.0",
+      "react-scripts": "5.0.1"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test --watchAll=false",
+      "eject": "react-scripts eject"
+    },
+    "eslintConfig": {},
+    "browserslist": {
+      "production": [
+        ">0.2%",
+        "not dead",
+        "not op_mini all"
+      ],
+      "development": [
+        "last 1 chrome version",
+        "last 1 firefox version",
+        "last 1 safari version"
+      ]
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
